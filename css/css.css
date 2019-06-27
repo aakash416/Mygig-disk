@@ -1,15 +1,19 @@
 body {
-    background-color: white;
-    background-image: url("../img/background.jpg");
-    background-position: top;
-    background-position: top;
-   background-repeat: no-repeat;
+    background-color: white; 
+
+}
+.container
+{
+  width:1400px;
+}
+.header {
+  background-image: url("../img/background.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
   background-size: 1600px 455px;
   background-attachment: fixed;
   position: relative;
-
-}
-
+  }
  .main
 {
     padding: 60px 150px;
@@ -24,7 +28,6 @@ body {
   overflow: hidden;
   background-color: #;
 }
-
 .navbar a {
   float: left;
   font-size: 16px;
@@ -33,12 +36,10 @@ body {
   padding: 14px 16px;
   text-decoration: none;
 }
-
 .dropdown {
   float: left;
   overflow: hidden;
 }
-
 .dropdown .dropbtn {
   font-size: 16px;  
   border: none;
@@ -49,11 +50,9 @@ body {
   font-family: inherit;
   margin: 0;
 }
-
 .navbar a:hover, .dropdown:hover .dropbtn {
   background-color: #4A79E7;
 }
-
 .dropdown-content {
   display: none;
   position: absolute;
@@ -62,7 +61,6 @@ body {
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
-
 .dropdown-content a {
   float: none;
   color: black;
@@ -71,57 +69,43 @@ body {
   display: block;
   text-align: left;
 }
-
 .dropdown-content a:hover {
   background-color: #ddd;
 }
-
 .dropdown:hover .dropdown-content {
   display: block;
 }
-
 * {
   box-sizing: border-box;
 }
-
 .column {
   float: left;
   width: 50%;
-  height: 150px;
+  height: 200px;
   background-color: #bbb; 
   padding-left: 100px;
   padding-right: 100px;
-  /* Should be removed. Only for demonstration */
 }
-
 .column1 {
   border: 0px solid black;
   margin-top: 70px;
   margin-bottom: 100px;
-  margin-right: -10px;
-  margin-left: -10px;
+  margin-right: 0px;
+  margin-left: 0px;
 }
-/* Clear floats after the columns */
 p#losinfo {
 font-size:30px;
 }
 p#losinfo span {
 font-size:20px;
 }
-
-/* Float four columns side by side */
 .column2 {
   float: left;
   width: 33.33%;
   padding: 0 10px;
   margin-bottom: 20px;
-
 }
-
-/* Remove extra left and right margins, due to padding */
 .row {margin: 0 0px;}
-
-/* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
@@ -132,13 +116,9 @@ font-size:20px;
    background-size:cover;
     background-origin: border-box;
       margin-top: -100px;
-      margin-left: -10px;
-      margin-right: -10px;
-
- 
+      margin-left: 0px;
+      margin-right: 0px;
 }
-
-/* Responsive columns */
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
@@ -147,9 +127,6 @@ font-size:20px;
   }
 }
 
-
-
-/* Style the counter cards */
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 16px;
@@ -176,5 +153,3 @@ font-size:20px;
    color: white;
    text-align: center;
 }
-
-
